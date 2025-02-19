@@ -1,0 +1,5 @@
+{
+  "extends": "../tsconfig.base",
+  "files": ["working.ts"],
+  "references": [{ "path": "nested" }]
+}

@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "target": "ESNext",
+    "module": "Preserve",
+    "moduleResolution": "Bundler",
+    "rootDir": "src",
+    "baseUrl": "src",
+    "paths": {
+      "ext/ua-parser.js": [
+        "../node_modules/@types/ua-parser-js",
+        "../node_modules/ua-parser-js"
+      ]
+    },
+    "composite": true,
+    "outDir": "dist",
+    "strict": true
+  }
+}
